@@ -7,7 +7,7 @@ Alzheimer’s disease (AD) is a progressive neurodegenerative disorder that seve
 ![Model Architecture](images/arch_diag.png)
 
 ## Methodology
-![Mmethodology](images/Methodology%20Diagram_2%20-%20Copy.png)
+![Mmethodology](images/architecture_overview11.png)
 
 
 ## Important Preprocessing
