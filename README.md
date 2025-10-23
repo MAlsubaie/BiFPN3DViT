@@ -3,9 +3,12 @@
 ## Abstract
 Alzheimer’s disease (AD) is a progressive neurodegenerative disorder that severely affects memory and cognitive function, underscoring the need for accurate and early diagnostic tools. Deep learning has shown strong potential in automated AD detection from brain MRI scans; however, many existing approaches either overlook the full volumetric context of MRI data or rely on limited feature fusion strategies that weaken spatial coherence. To address these challenges, this study proposes BiFPN3DViT, a hybrid deep learning framework that integrates a hierarchical 3D convolutional backbone as the foundational component of a Bidirectional Feature Pyramid Network (BiFPN), coupled with a Vision Transformer (ViT) for global contextual learning. The unified 3D CNN–BiFPN module jointly extracts and fuses multi-scale volumetric features through both bottom-up and top-down pathways, forming a rich spatial representation that is subsequently refined by the transformer encoder. Evaluated on 4,706 MRI scans from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset, the proposed model achieved over 92\% classification accuracy across AD, mild cognitive impairment (MCI), and cognitively normal (CN) subjects. Comparative and ablation studies confirm the complementary strengths of convolutional and transformer-based modeling, while attention visualization highlights clinically relevant brain regions. These results demonstrate that BiFPN3DViT offers a scalable, interpretable, and computationally efficient framework for MRI-based Alzheimer’s disease diagnosis, advancing the integration of multi-scale feature learning and attention-driven analysis in neuroimaging.
 
-## Model Architecture
-![Model Architecture](images/arch_diag.png)
+## Preprocessing Pipeline
+(images/preprocessing_pipeline.png)
 
+## Model Architecture
+![Model Architecture](images/BiFPN_block.png)
+(images/transformer_block.png)
 ## Methodology
 ![Mmethodology](images/architecture_overview11.png)
 
