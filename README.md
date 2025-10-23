@@ -18,8 +18,8 @@ Alzheimer’s disease (AD) is a progressive neurodegenerative disorder that seve
 ### HD-BET
 This approach is utilized for skull stripping from the images. Preprocess data using the [HD-BET](https://github.com/MIC-DKFZ/HD-BET) method and prepare the data as instructed below.
 
-![Model Architecture](images/MRI before processing.png)
-![Model Architecture](images/preprocessing_samples.jpeg
+![Model Architecture](images/MRI_before_processing.png)
+![Model Architecture](images/preprocessing_samples.jpeg)
 
 ## Datset Prepration:
 Your dataset should be structure in a DataFrame.
